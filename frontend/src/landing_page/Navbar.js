@@ -1,21 +1,21 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-white border-bottom shadow-sm ">
       <div className="container pb-1">
-        <Link className="navbar-brand" to="/" style={{ marginRight: "20px" }}>
+        <NavLink className="navbar-brand" to="/" style={{ marginRight: "20px" }}>
           <img
             src="media/images/logo.png"
             alt="Logo"
             className="img-fluid"
             style={{
               maxWidth: "120px",
-              marginTop: "2px",  // Align logo vertically with the nav items
+              marginTop: "2px",
             }}
           />
-        </Link>
+        </NavLink>
         <button
           className="navbar-toggler"
           type="button"
@@ -30,29 +30,49 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-0">
             <li className="nav-item me-3">
-              <Link className="nav-link active" to="/signup">
+              <NavLink
+                className="nav-link"
+                to="/signup"
+                activeClassName="text-primary"
+              >
                 Signup
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item me-3">
-              <Link className="nav-link" to="/about">
+              <NavLink
+                className="nav-link"
+                to="/about"
+                activeClassName="text-primary"
+              >
                 About
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item me-3">
-              <Link className="nav-link" to="/product">
+              <NavLink
+                className="nav-link"
+                to="/product"
+                activeClassName="text-primary"
+              >
                 Product
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item me-3">
-              <Link className="nav-link" to="/pricing">
+              <NavLink
+                className="nav-link"
+                to="/pricing"
+                activeClassName="text-primary"
+              >
                 Pricing
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item me-3">
-              <Link className="nav-link" to="support">
+              <NavLink
+                className="nav-link"
+                to="/support"
+                activeClassName="text-primary"
+              >
                 Support
-              </Link>
+              </NavLink>
             </li>
           </ul>
         </div>
