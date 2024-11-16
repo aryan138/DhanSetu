@@ -8,8 +8,8 @@ function AccountOpeningLinks() {
     "Company, Partnership and HUF Account",
     "Opening",
     "NRI Account Opening",
-    "Charges at Zerodha",
-    "Zerodha IDFC FIRST Bank 3-in-1 Account",
+    "Charges at Dhansetu",
+    "Dhansetu IDFC FIRST Bank 3-in-1 Account",
     "Getting Started"
   ];
 

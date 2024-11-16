@@ -26,7 +26,7 @@ code {
 #supportWrapper{
   display: flex;
   justify-content: space-between;
-  margin: 0 150px;
+  margin: 0 120px;
 }
 
 #supportHero input{
@@ -35,4 +35,14 @@ code {
   font-size: 20px;
   border-radius: 10px;
   border: none;
+}
+
+.hover-effect:hover {
+  color: #007bff !important;
+  transition: all 0.3s ease;
+}
+
+.nav-link.active {
+  color: #007bff !important; 
+  font-weight: bold ;
 }

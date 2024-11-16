@@ -17,6 +17,7 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
     <Navbar/>
+    <div style={{ marginTop: "62px" }}></div>
       <Routes>
         <Route path="/" element={<HomePage/>}/>
         <Route path="/signup" element={<SignUp/>}/>
