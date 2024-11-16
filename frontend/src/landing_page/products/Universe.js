@@ -54,7 +54,7 @@ function Universe() {
         </div>
         <div className="col-12 col-md-6 col-lg-4 p-4 mb-4">
           <img
-            src="media/images/ZerodhaFundhouse.png"
+            src="media/images/DhansetuFundhouse.png"
             alt="Platform Logo"
             className="img-fluid mb-3"
             style={{
